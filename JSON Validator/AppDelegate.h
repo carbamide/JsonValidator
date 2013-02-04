@@ -11,12 +11,5 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (strong) IBOutlet NSTextView *textView;
-@property (strong) IBOutlet NSButton *validateButton;
-@property (strong) IBOutlet NSButton *formatButton;
-@property (strong) IBOutlet NSTextField *validLabel;
-
--(IBAction)validate:(id)sender;
--(IBAction)format:(id)sender;
 
 @end
