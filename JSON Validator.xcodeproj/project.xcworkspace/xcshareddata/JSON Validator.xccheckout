@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27D69A58-2695-42C0-A1CD-5E4BB7638CF2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSON Validator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CDF5022D-2256-49C4-BB69-4037D6A73211</key>
+		<string>https://github.com/carbamide/JsonValidator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSON Validator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CDF5022D-2256-49C4-BB69-4037D6A73211</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carbamide/JsonValidator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CDF5022D-2256-49C4-BB69-4037D6A73211</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CDF5022D-2256-49C4-BB69-4037D6A73211</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JsonValidator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

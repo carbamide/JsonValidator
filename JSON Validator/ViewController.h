@@ -17,5 +17,6 @@
 
 -(IBAction)validate:(id)sender;
 -(IBAction)format:(id)sender;
+-(IBAction)unescape:(id)sender;
 
 @end

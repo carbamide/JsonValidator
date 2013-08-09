@@ -14,6 +14,7 @@
 		29765EE116B08B4300880633 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29765EDF16B08B4300880633 /* Credits.rtf */; };
 		29765EE416B08B4300880633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29765EE316B08B4300880633 /* AppDelegate.m */; };
 		29765EE716B08B4300880633 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29765EE516B08B4300880633 /* MainMenu.xib */; };
+		29AC98C417B56C9A00F5B58F /* NSString+JsonEscaping.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC98C317B56C9A00F5B58F /* NSString+JsonEscaping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		29765EE216B08B4300880633 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29765EE316B08B4300880633 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		29765EE616B08B4300880633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29AC98C217B56C9A00F5B58F /* NSString+JsonEscaping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JsonEscaping.h"; sourceTree = "<group>"; };
+		29AC98C317B56C9A00F5B58F /* NSString+JsonEscaping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JsonEscaping.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				29765EE316B08B4300880633 /* AppDelegate.m */,
 				03667F8E16C0233C00DD7C44 /* ViewController.h */,
 				03667F8F16C0233C00DD7C44 /* ViewController.m */,
+				29AC98C217B56C9A00F5B58F /* NSString+JsonEscaping.h */,
+				29AC98C317B56C9A00F5B58F /* NSString+JsonEscaping.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29765EDD16B08B4300880633 /* main.m in Sources */,
+				29AC98C417B56C9A00F5B58F /* NSString+JsonEscaping.m in Sources */,
 				29765EE416B08B4300880633 /* AppDelegate.m in Sources */,
 				03667F9116C0233C00DD7C44 /* ViewController.m in Sources */,
 			);

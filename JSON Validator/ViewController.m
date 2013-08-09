@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+JsonEscaping.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,14 @@
     }
     
     return self;
+}
+
+-(void)awakeFromNib
+{
+    [super awakeFromNib];
+    
+    [[self textView] setRichText:NO];
+    [[self textView] setAutomaticQuoteSubstitutionEnabled:NO];
 }
 
 -(IBAction)validate:(id)sender
@@ -46,9 +55,11 @@
 
 -(IBAction)format:(id)sender
 {
+    NSString *stringToFormat = [NSString convertNullsAndBoolsForString:[[self textView] string]];
+    
     NSError *error = nil;
     
-    NSData *tempData = [[[self textView] string] dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *tempData = [stringToFormat dataUsingEncoding:NSUTF8StringEncoding];
     
     BOOL unabledToValidate = YES;
     
@@ -77,6 +88,25 @@
         [[self validLabel] setStringValue:@"Invalid"];
         [[self validLabel] setTextColor:[NSColor redColor]];
     }
+}
+
+-(IBAction)unescape:(id)sender
+{
+    NSString *escapedString = [[self textView] string];
+    
+    NSString *unescapedString = [NSString stringWithJSONString:escapedString];
+    
+    if (!unescapedString) {
+        [[self validLabel] setStringValue:@"Error"];
+        [[self validLabel] setTextColor:[NSColor redColor]];
+        
+        return;
+    }
+    
+    [[self validLabel] setStringValue:@"Unescaped"];
+    [[self validLabel] setTextColor:[NSColor greenColor]];
+    
+    [[self textView] setString:unescapedString];
 }
 
 @end
