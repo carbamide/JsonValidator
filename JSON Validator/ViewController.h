@@ -13,6 +13,10 @@
  */
 @interface ViewController : NSViewController
 
+///---------------------------------------
+/// @name Properties
+///---------------------------------------
+
 /**
  The 'NSTextView' that will accept pasted text and convert it to formatted JSON or validate said JSON.
  */
@@ -32,6 +36,10 @@
  'NSTextField' that shows the current status.
  */
 @property (strong) IBOutlet NSTextField *validLabel;
+
+///---------------------------------------
+/// @name Methods
+///---------------------------------------
 
 /**
  IBAction that begins validation of the text of 'textView'

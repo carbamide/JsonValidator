@@ -8,10 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+///---------------------------------------
+/// @name Properties
+///---------------------------------------
+
 /**
  'NSString+JsonEscaping' is a catagory on NSString that allows unescaping of JSON contained in an 'NSString'
  */
 @interface NSString (JsonEscaping)
+
+///---------------------------------------
+/// @name Methods
+///---------------------------------------
 
 /**
  Converts escaped JSON within an 'NSString' to unescaped JSON

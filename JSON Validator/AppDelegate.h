@@ -14,6 +14,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+///---------------------------------------
+/// @name Properties
+///---------------------------------------
+
 /**
  The main NSWindow
  */
