@@ -1,0 +1,25 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+          <key>--project-name</key>  
+          <string>Json Validator</string>
+
+          <key>--project-company</key>  
+          <string>Jukaela Enterprises</string> 
+
+          <key>--company-id</key>  
+          <string>com.jukaela</string>
+
+          <key>--ignore</key>
+          <array>
+              <string>*.m</string>
+          </array>
+
+          <key>--output</key>
+          <string>/Users/jbarrow/Projects/JsonValidator/Documentation</string>
+
+          <key>--keep-intermediate-files</key>  
+          <true/>
+    </dict>
+    </plist>

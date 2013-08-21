@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewController</TokenIdentifier>
+			<Abstract type="html">The main &apos;NSViewController&apos; that controls the view of the main NSWindow</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setTextView:</TokenIdentifier>
+			<Abstract type="html">The &apos;NSTextView&apos; that will accept pasted text and convert it to formatted JSON or validate said JSON.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/textView</TokenIdentifier>
+			<Abstract type="html">The &apos;NSTextView&apos; that will accept pasted text and convert it to formatted JSON or validate said JSON.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/textView</TokenIdentifier>
+			<Abstract type="html">The &apos;NSTextView&apos; that will accept pasted text and convert it to formatted JSON or validate said JSON.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setValidateButton:</TokenIdentifier>
+			<Abstract type="html">The validate button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *validateButton</Declaration>
+			
+			
+			<Anchor>//api/name/validateButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/validateButton</TokenIdentifier>
+			<Abstract type="html">The validate button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *validateButton</Declaration>
+			
+			
+			<Anchor>//api/name/validateButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/validateButton</TokenIdentifier>
+			<Abstract type="html">The validate button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *validateButton</Declaration>
+			
+			
+			<Anchor>//api/name/validateButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setFormatButton:</TokenIdentifier>
+			<Abstract type="html">The format button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *formatButton</Declaration>
+			
+			
+			<Anchor>//api/name/formatButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/formatButton</TokenIdentifier>
+			<Abstract type="html">The format button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *formatButton</Declaration>
+			
+			
+			<Anchor>//api/name/formatButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/formatButton</TokenIdentifier>
+			<Abstract type="html">The format button</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSButton *formatButton</Declaration>
+			
+			
+			<Anchor>//api/name/formatButton</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setValidLabel:</TokenIdentifier>
+			<Abstract type="html">&apos;NSTextField&apos; that shows the current status.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextField *validLabel</Declaration>
+			
+			
+			<Anchor>//api/name/validLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/validLabel</TokenIdentifier>
+			<Abstract type="html">&apos;NSTextField&apos; that shows the current status.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextField *validLabel</Declaration>
+			
+			
+			<Anchor>//api/name/validLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/validLabel</TokenIdentifier>
+			<Abstract type="html">&apos;NSTextField&apos; that shows the current status.</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong) IBOutlet NSTextField *validLabel</Declaration>
+			
+			
+			<Anchor>//api/name/validLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/validate:</TokenIdentifier>
+			<Abstract type="html">IBAction that begins validation of the text of &apos;textView&apos;</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)validate:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">The caller</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/validate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/format:</TokenIdentifier>
+			<Abstract type="html">IBAction that begins formatting of the text of &apos;textView&apos;</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)format:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">The caller</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/format:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/unescape:</TokenIdentifier>
+			<Abstract type="html">IBAction that unescapes the text of the &apos;textView&apos;</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)unescape:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">The caller</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unescape:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
