@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03667F9116C0233C00DD7C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03667F8F16C0233C00DD7C44 /* ViewController.m */; };
+		290CB6271B5402650041B098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290CB6261B5402650041B098 /* Images.xcassets */; };
 		29765ED116B08B4200880633 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29765ED016B08B4200880633 /* Cocoa.framework */; };
 		29765EDB16B08B4300880633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29765ED916B08B4300880633 /* InfoPlist.strings */; };
 		29765EDD16B08B4300880633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29765EDC16B08B4300880633 /* main.m */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		03667F8E16C0233C00DD7C44 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03667F8F16C0233C00DD7C44 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		290CB6261B5402650041B098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29765ECD16B08B4200880633 /* JSON Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Validator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29765ED016B08B4200880633 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		29765ED316B08B4200880633 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -111,6 +113,7 @@
 			children = (
 				03667F9416C0262D00DD7C44 /* Classes */,
 				03667F9316C0262400DD7C44 /* User Interface */,
+				290CB6261B5402650041B098 /* Images.xcassets */,
 				29765ED716B08B4300880633 /* Supporting Files */,
 			);
 			path = "JSON Validator";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29765EDB16B08B4300880633 /* InfoPlist.strings in Resources */,
+				290CB6271B5402650041B098 /* Images.xcassets in Resources */,
 				29765EE116B08B4300880633 /* Credits.rtf in Resources */,
 				29765EE716B08B4300880633 /* MainMenu.xib in Resources */,
 			);
@@ -289,6 +293,7 @@
 		29765EEB16B08B4300880633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSON Validator/JSON Validator-Prefix.pch";
@@ -307,6 +312,7 @@
 		29765EEC16B08B4300880633 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSON Validator/JSON Validator-Prefix.pch";
