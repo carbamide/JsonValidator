@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSString+JsonEscaping.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
     if (self) {
         NSLog(@"Initializing self (ViewController)");
     }
@@ -49,6 +51,11 @@
     }
     
     if (error) {
+        AppDelegate *delegate = [[NSApplication sharedApplication] delegate];
+        
+        NSAlert *alert = [NSAlert alertWithError:error];
+        [alert beginSheetModalForWindow:[delegate window] completionHandler:nil];
+        
         NSLog(@"There was an error formatting and validating the json - %@\n", [error localizedDescription]);
     }
 }
@@ -81,6 +88,11 @@
     }
     
     if (error) {
+        AppDelegate *delegate = [[NSApplication sharedApplication] delegate];
+        
+        NSAlert *alert = [NSAlert alertWithError:error];
+        [alert beginSheetModalForWindow:[delegate window] completionHandler:nil];
+        
         NSLog(@"There was an error formatting and validating the json - %@\n", [error localizedDescription]);
     }
     
@@ -97,6 +109,13 @@
     NSString *unescapedString = [NSString stringWithJSONString:escapedString];
     
     if (!unescapedString) {
+        AppDelegate *delegate = [[NSApplication sharedApplication] delegate];
+
+        NSAlert *alert = [[NSAlert alloc] init];
+        [alert setMessageText:@"An error occurred."];
+        [alert setInformativeText:@"Unable to unescape the JSON.  An error occurred."];
+        [alert beginSheetModalForWindow:[delegate window] completionHandler:nil];
+        
         [[self validLabel] setStringValue:@"Error"];
         [[self validLabel] setTextColor:[NSColor redColor]];
         
